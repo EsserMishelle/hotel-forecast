@@ -60,6 +60,7 @@ After cleaning and transformation, the final dataset has 87212 rows and 35 colum
 Cancellation rates are highest for Groups and Online TA bookings and lowest for Corporate and Complementary bookings.
 
 **Cancellation Distribution and Cancellation By Hotel Type**
+
 <img width="533" height="353" alt="image" src="https://github.com/user-attachments/assets/786cb9bd-9afd-4fbc-8b94-637f6ed4e468" />
 
 Most bookings are completed, but cancellation rates differ by hotel type, with city hotels experiencing more cancellations than resort hotels.
@@ -70,11 +71,25 @@ Most bookings are completed, but cancellation rates differ by hotel type, with c
 
 The adverage cancellation lead time is around 80 days. Cancelled bookings generally have longer lead times than non-cancelled bookings, suggesting that reservations made further in advance are more uncertain.
 
-**Cancellation by deposit type**
+**Cancellation by Deposit Type**
 
 <img width="558" height="649" alt="image" src="https://github.com/user-attachments/assets/b5869b14-f90c-413b-9239-4d44b0fe49da" />
 
 Most bookings are made without deposits. Non-refundable deposits show the highest cancellation rate, while refundable deposits have the lowest. However, refundable bookings account for only a small number of reservations, so **the percentage should be interpreted with caution.**
+
+**Cancellation by Previous Cancellations**
+
+<img width="376" height="300" alt="image" src="https://github.com/user-attachments/assets/ad60304a-f34c-4180-94f7-4e4030c9d697" />
+
+Guests with a history of previous cancellations tend to have higher cancellation rates for future bookings. However, very high values of previous cancellations appear infrequently in the dataset, so extreme cancellation rates for those groups should be interpreted cautiously.
+
+## Heatmap Chart
+
+<img width="603" height="503" alt="image" src="https://github.com/user-attachments/assets/00219e78-51b4-4ba9-a996-67b4191ed0f5" />
+
+The heatmap shows several redundant variables. For example, total_nights is highly correlated with stays_in_week_nights (0.95) and stays_in_weekend_nights (0.78), while total_guests is strongly correlated with adults (0.74) and children (0.67). These relationships suggest overlapping information among features.
+
+Most numerical features show weak correlations with booking cancellations. Lead time and average daily rate (ADR) show modest positive relationships with cancellations, while required parking spaces and special requests show negative relationships, suggesting stronger commitment among these bookings.
 
 ## Model Comparison
 
