@@ -119,6 +119,13 @@ Random Forest achieves the highest overall accuracy (85% vs 75%)and precision wh
 The F1-scores for both completed bookings and canceled bookings are higher for Random Forest (0.90 and 0.69) than for Logistic Regression (0.81 and 0.63). This indicates that Random Forest provides a better overall balance between precision and recall across both classes, resulting in stronger overall predictive performance.
 
 ### ROC Curves and AUC Scores
+
+<img width="467" height="361" alt="image" src="https://github.com/user-attachments/assets/6c31d6c1-f4f0-455f-b5be-9af0df078e64" />
+
+The ROC curve compares the classification performance of Logistic Regression and Random Forest across different probability thresholds. The Random Forest model achieves a higher AUC (0.91) than Logistic Regression (0.84), indicating a stronger ability to distinguish between canceled and non-canceled bookings.
+
+The steeper and wider curve of the Random Forest model shows that it achieves a higher true positive rate for the same false positive rate across most thresholds. This suggests that Random Forest provides better overall predictive performance for the cancellation prediction task.
+
 ## Key Insights
 
 Several patterns emerge from the analysis:
