@@ -144,3 +144,5 @@ Early detection of cancellation risk allows hotels to adjust staffing, marketing
 This analysis compared Logistic Regression and Random Forest models to predict hotel booking cancellations. While Logistic Regression serves as a strong baseline and captures a larger share of actual cancellations, Random Forest provides better overall predictive performance, achieving higher accuracy and stronger F1-scores across both classes. These results demonstrate the value of ensemble models when modeling complex booking behavior.
 
 Future work could extend this analysis by exploring additional predictive tasks such as forecasting booking revenue, predicting average daily rate (ADR), or improving cancellation prediction using additional features and more advanced models.
+
+➡️ Full analysis: [`eda-and-cancellation-analysis.ipynb`](eda-and-cancellation-analysis.ipynb)
