@@ -71,17 +71,23 @@ Most bookings are completed, but cancellation rates differ by hotel type, with c
 
 The adverage cancellation lead time is around 80 days. Cancelled bookings generally have longer lead times than non-cancelled bookings, suggesting that reservations made further in advance are more uncertain.
 
+**Cancellation by Weekdays**
+
+<img width="580" height="382" alt="image" src="https://github.com/user-attachments/assets/eb8f6f92-8ca1-422d-85f1-0a6ec91ed22f" />
+
+Cancellation rates increase toward the weekend, peaking on Friday (30.6%) and Saturday (30.1%). This pattern indicates that leisure travelers who are more likely to book weekend stays, show greater booking flexibility and higher cancellation behavior than weekday travelers.
+
+**Average Monthly ADR and Cancellation Rate Chart**
+
+<img width="857" height="437" alt="image" src="https://github.com/user-attachments/assets/6fa4393a-5b89-41d2-bd3f-a678e80b6d38" />
+
+Higher ADR during peak months (June–August) coincides with elevated cancellation rates, highlighting a trade-off between revenue maximization and booking reliability. This suggests opportunities for strategies such as dynamic pricing, deposits, or overbooking to manage risk during high-demand periods.
+
 **Cancellation by Deposit Type**
 
 <img width="558" height="649" alt="image" src="https://github.com/user-attachments/assets/b5869b14-f90c-413b-9239-4d44b0fe49da" />
 
 Most bookings are made without deposits. Non-refundable deposits show the highest cancellation rate, while refundable deposits have the lowest. However, refundable bookings account for only a small number of reservations, so **the percentage should be interpreted with caution.**
-
-**Cancellation by Previous Cancellations**
-
-<img width="376" height="300" alt="image" src="https://github.com/user-attachments/assets/ad60304a-f34c-4180-94f7-4e4030c9d697" />
-
-Guests with a history of previous cancellations tend to have higher cancellation rates for future bookings. However, very high values of previous cancellations appear infrequently in the dataset, so extreme cancellation rates for those groups should be interpreted cautiously.
 
 ## Heatmap Chart
 
