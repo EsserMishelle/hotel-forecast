@@ -1,6 +1,7 @@
 # Hotel Booking Demand Analysis
 
-<img width="900" height="300" alt="image" src="https://github.com/user-attachments/assets/32487b5b-7b74-4a87-9eed-09cce5d80cf7" />
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/683d2ed7-d9ce-485e-b7db-cfc399298cb3" />
+
 
 ## Overview
 
