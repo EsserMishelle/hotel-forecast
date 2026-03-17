@@ -91,7 +91,8 @@ Most bookings are made without deposits. Non-refundable deposits show the highes
 
 ## Heatmap Chart
 
-<img width="967" height="779" alt="image" src="https://github.com/user-attachments/assets/ab1ee4e1-4150-4084-aa7e-f369f917544a" />
+<img width="858" height="728" alt="image" src="https://github.com/user-attachments/assets/46cb378e-2010-45c4-b2dd-a96fe0506050" />
+
 
 The heatmap shows several redundant variables. For example, total_nights is highly correlated with stays_in_week_nights (0.95) and stays_in_weekend_nights (0.78), while total_guests is strongly correlated with adults (0.74) and children (0.67). These relationships suggest overlapping information among features.
 
