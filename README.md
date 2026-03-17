@@ -69,7 +69,7 @@ Most bookings are completed, but cancellation rates differ by hotel type, with c
 
 <img width="395" height="305" alt="image" src="https://github.com/user-attachments/assets/c605c16d-182a-4c73-bf63-6e4e5ab7198f" />
 
-The adverage cancellation lead time is around 80 days. Cancelled bookings generally have longer lead times than non-cancelled bookings, suggesting that reservations made further in advance are more uncertain.
+The adverage cancellation lead time is around 80 days. The canceled box is also wider/longer, which means there's more variability in lead time. The upper whisker is much higher for the cancel boxplot, indicating some bookings made very far in advance have been canceled. Cancelled bookings generally have longer lead times than non-cancelled bookings, suggesting that reservations made further in advance are more uncertain.
 
 **Cancellation by Weekdays**
 
