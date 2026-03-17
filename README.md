@@ -1,4 +1,7 @@
 # Hotel Booking Demand Analysis
+
+<img width="900" height="300" alt="image" src="https://github.com/user-attachments/assets/32487b5b-7b74-4a87-9eed-09cce5d80cf7" />
+
 ## Overview
 
 This project explores hotel booking demand patterns using a real-world dataset containing reservation information for both city hotels and resort hotels. The goal of the analysis is to understand booking behavior, cancellation patterns, seasonal trends, and factors that influence hotel demand.
